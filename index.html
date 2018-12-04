@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title> | DOM</title>
+	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="libs/slick/slick.css">
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css">
+	<meta name="viewport" content="width=device-width">
+	
+	
+</head>
+<body>
+	
+	<div class="header__big">
+			<div class="wr">	
+				<header class="header">
+				
+					<div class="header__content">
+						<div id="nav-icon3" class="">
+						  <span></span>
+						  <span></span>
+						  <span></span>
+						  <span></span>
+						</div>
+	
+						<a href="index.html" class="logo">
+							<span class="big_word">DOM</span>
+							<span class="sign">Каркасные дома  в Одессе </span>
+						</a>
+		
+						<nav class="header__nav">
+							<ul class="header__list">
+								<li class="header__link"><a href="#">Главная</a></li>
+								<li class="header__link"><a href="#"> О нас</a></li>
+								<li class="header__link"><a href="#">Как мы работаем</a></li>
+								<li class="header__link"><a href="#">Наши работы</a></li>
+								<li class="header__link"><a href="#">Отзывы</a></li>
+								<li class="header__link"><a href="#">Контакты</a></li>
+							</ul>                          
+						</nav>
+		
+						<a href="tel:+3 800 000 00 00" class="phone">+3 800 000 00 00</a>
+					</div>
+	
+					<div class="header__mobile">
+						<nav class="nav_mobile">
+							<ul class="nav__list">
+								<li class="header__link"><a href="#">Главная</a></li>
+								<li class="header__link"><a href="#"> О нас</a></li>
+								<li class="header__link"><a href="#">Как мы работаем</a></li>
+								<li class="header__link"><a href="#">Наши работы</a></li>
+								<li class="header__link"><a href="#">Отзывы</a></li>
+								<li class="header__link"><a href="#">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+						
+				</header>
+			
+		
+				<div class="header__info">
+					<span class="header__title">Каркасный дом под ключ со всеми коммуникациями</span>
+					<span class="header__subtitle">всего за 45 дней <br>и от <span class="line-through">15 890  </span> <span class="big_word"> 10 890</span>грн/м2</span>
+		
+					<button class="btn btn--request">Отправить заявку</button>
+				</div>
+			</div>
+		</div>
+	
+	<div class="popup popup__request">
+		<div class="popup__wr">
+			<div class="popup__content">
+				<span class="popup__title">Оставьте заявку</span>
+				<form>
+						<input class="input" type="text" placeholder="Ваше имя">
+						<input class="input input--tel" type="tel" placeholder="Номер телефона">
+					
+					<input type="submit" class="btn btn--transparent btn--send" value="Отправить">
+	
+	
+				</form>
+					
+				<button class="close">
+					<svg  width="17" height="17" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 17 17"><defs><path d="M1298.72586,360.75316l0.38244,-0.38232l13.52066,13.52061l-0.38244,0.38232z" id="Path-0"/><path d="M1312.05604,360.55648l0.38708,0.38742l-13.6851,13.68501l-0.38708,-0.38699z" id="Path-1"/></defs><g transform="matrix(1,0,0,1,-1297,-359)"><g>	<use xlink:href="#Path-0" fill="#0a7dbc" fill-opacity="1"/><use xlink:href="#Path-0" fill-opacity="0" fill="#ffffff" stroke-dashoffset="0" stroke-dasharray="" stroke-linejoin="miter" stroke-linecap="butt" stroke-opacity="1" stroke="#0a7dbc" stroke-miterlimit="50" stroke-width="2"/></g><g><title>Фигура 1 копия</title><use xlink:href="#Path-1" fill="#0a7dbc" fill-opacity="1"/><use xlink:href="#Path-1" fill-opacity="0" fill="#ffffff" stroke-dashoffset="0" stroke-dasharray="" stroke-linejoin="miter" stroke-linecap="butt" stroke-opacity="1" stroke="#0a7dbc" stroke-miterlimit="50" stroke-width="2"/></g></g></svg>
+				</button>
+			</div>
+		</div>
+	</div>
+	
+	<div class="popup popup__thank">
+		<div class="popup__wr">
+			<div class="popup__content">
+				<span class="popup__title">Спасибо! <br> Мы скоро свяжемся с вами!</span>
+			
+					
+				<button class="close">
+					<svg  width="17" height="17" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 17 17"><defs><path d="M1298.72586,360.75316l0.38244,-0.38232l13.52066,13.52061l-0.38244,0.38232z" id="Path-0"/><path d="M1312.05604,360.55648l0.38708,0.38742l-13.6851,13.68501l-0.38708,-0.38699z" id="Path-1"/></defs><g transform="matrix(1,0,0,1,-1297,-359)"><g>	<use xlink:href="#Path-0" fill="#0a7dbc" fill-opacity="1"/><use xlink:href="#Path-0" fill-opacity="0" fill="#ffffff" stroke-dashoffset="0" stroke-dasharray="" stroke-linejoin="miter" stroke-linecap="butt" stroke-opacity="1" stroke="#0a7dbc" stroke-miterlimit="50" stroke-width="2"/></g><g><title>Фигура 1 копия</title><use xlink:href="#Path-1" fill="#0a7dbc" fill-opacity="1"/><use xlink:href="#Path-1" fill-opacity="0" fill="#ffffff" stroke-dashoffset="0" stroke-dasharray="" stroke-linejoin="miter" stroke-linecap="butt" stroke-opacity="1" stroke="#0a7dbc" stroke-miterlimit="50" stroke-width="2"/></g></g></svg>
+				</button>
+			</div>
+		</div>
+	</div>
+	<main>
+		<div class="about oval">
+					<div class="wr">
+						<div class="about__content">
+							<span class="block_title">О нас</span>
+							<p class="about__text">Мы строим конструкции преимущественно на основе металлокаркаса, что дает исключительную прочность и надежность конструкции, которая в приморской зоне не может быть достигнута из-за низкого качества строительного леса (его выдержки, изменения геометрия от влияния перепадов температуры и влажности) Но можем строить и из клееного бруса по желанию заказчика. </p>
+				
+							<div class="about__list">
+								<div class="about__item">
+									<div class="img_wr">
+										<img src="img/prize.svg" alt="">
+									</div>
+									<span class="about__name">Опыт строительных бригад более 10 лет.</span>
+								</div>
+				
+								<div class="about__item">
+									<div class="img_wr">
+										<img src="img/loupe.svg" alt="">
+									</div>
+									<span class="about__name">Помощь в подборе <br> участка под застройку</span>
+								</div>
+				
+								<div class="about__item">
+									<div class="img_wr">
+										<img src="img/planning.svg" alt="">
+									</div>
+									<span class="about__name">Бесплатный проект</span>
+								</div>
+				
+								<div class="about__item">
+									<div class="img_wr">
+										<img src="img/support.svg" alt="">
+									</div>
+									<span class="about__name">10 ЛЕТ гарантии <br> на конструкцию</span>
+								</div>
+							</div>
+		
+							<p class="about__subtext">Чтобы мы могли сделать Вам максимально выгодное предложение, ответьте пожалуйста на несколько не сложных вопросов:</p>
+							
+							<button class="btn btn--quiz">Ответить</button>
+							<!-- <p class="about__subtext">Надежные, энергоэффективные конструкции под ключ по цене <span class="bold">от 200 долларов</span> за <span class="bold">м2</span></p>
+							<button class="btn btn--request">Оставить заявку</button> -->
+						</div>
+					</div>
+				</div>
+		<div class="how oval	">
+			<div class="wr">
+				<div class="how__content">
+					<span class="block_title">Как мы работаем</span>
+		
+					<div class="how__list">
+						<div class="row row_3">
+							<div class="how__item">
+								<div class="img_wr">
+									<img src="img/phone-call.svg" alt="">
+								</div>
+								<span class="how__title">Звонок,<br>менеджер принимает заказ</span>
+							</div>
+		
+							<div class="how__item">
+								<div class="img_wr">
+									<img src="img/sketch.svg" alt="">
+								</div>
+								<span class="how__title">Инженер выезжает на участок <br> для экспертизы</span>
+							</div>
+		
+							<div class="how__item">
+								<div class="img_wr">
+									<img src="img/contract.svg" alt="">
+								</div>
+								<span class="how__title">Коммерческое предложение,<br>договор - 50% предоплата</span>
+							</div>
+						</div>
+						
+						<div class="row row_2">
+							<div class="how__item">
+								<div class="img_wr">
+									<img src="img/real-estate.svg" alt="">
+								</div>
+								<span class="how__title">Сдача объекта<br>(остаток стоимости) </span>
+							</div>
+		
+							<div class="how__item">
+								<div class="img_wr">
+									<img src="img/builder.svg" alt="">
+								</div>
+								<span class="how__title">Приступаем к работе</span>
+							</div>
+						</div>
+		
+						<div class="row row_1">
+							<div class="how__item">
+								<div class="img_wr">
+									<img src="img/family.svg" alt="">
+								</div>
+								<span class="how__title">Можно заселяться!</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="offer">
+			<div class="wr">
+				<div class="offer__content">
+					<span class="offer__title">Любой проект за 45 дней от <span class="line-through">15 890  </span> <span class="big_word"> 10 890</span> грн/м2</span>
+					<span class="offer__subtitle">Мы готовы построить вам любой проект, даже если его нет в нашем каталоге за эту стоимость. <br> Просто отправьте нам его</span>
+					<button class="btn btn--request">Отправить заявку</button>
+				</div>
+			</div>
+		</div>
+		<div class="works">
+			<div class="works__content">
+				<span class="block_title">Наше портфолио</span>
+		
+				<div class="works__list">
+					<div class="work__item item_1"><img src="img/work_1.jpg" alt=""></div>
+					<div class="work__item item_2"><img src="img/work_2.jpg" alt=""></div>
+					<div class="work__item item_3"><img src="img/work_3.jpg" alt=""></div>
+					<div class="work__item item_4"><img src="img/work_4.jpg" alt=""></div>
+					<div class="work__item item_5"><img src="img/work_5.jpg" alt=""></div>
+					<div class="work__item item_6"><img src="img/work_6.jpg" alt=""></div>
+				</div>
+			</div>
+		</div>
+		<div class="reviews">
+			<div class="wr">
+				<div class="reviews__content">
+					<span class="block_title">Отзывы</span>
+		
+					<div class="slider__wr">
+						<button class="reviews__arrow reviews__arrow--prev">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.504 11.339" ><path d="M1.733.614L.612 1.735l3.68 3.68-3.68 3.679 1.121 1.122 4.801-4.801L1.733.614zm0 0"/></svg>
+						</button>
+						<button class="reviews__arrow reviews__arrow--next" >
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.504 11.339"><path d="M1.733.614L.612 1.735l3.68 3.68-3.68 3.679 1.121 1.122 4.801-4.801L1.733.614zm0 0"/></svg>
+						</button>
+						<div class="reviews__slider">
+							<div class="reviews__item">
+								<p>Хочу выразить огромную благодарность всему коллективу компании "Мастер" за их подход к клиентам, за высокий профессионализм, за многолетний опыт в строительстве. </p>
+								
+								<p>Заказали баню "Сказка-2", на выставочной площадке "Люблино" менеджер Евгений все очень подробно рассказал про наш выбор, объяснил все этапы строительства и дал свои рекомендации по улучшению проекта, которые очень пригодились.</p>
+		
+								<div class="reviews__user">
+									<div class="img_wr">
+										<img src="img/face.png" alt="">
+									</div>
+									<span class="reviews__name">Татьяна Петрова</span>
+								</div>
+							</div>
+		
+							<div class="reviews__item">
+								<p>Хочу выразить огромную благодарность всему коллективу компании "Мастер" за их подход к клиентам, за высокий профессионализм, за многолетний опыт в строительстве. </p>
+								
+								<p>Заказали баню "Сказка-2", на выставочной площадке "Люблино" менеджер Евгений все очень подробно рассказал про наш выбор, объяснил все этапы строительства и дал свои рекомендации по улучшению проекта, которые очень пригодились.</p>
+		
+								<div class="reviews__user">
+									<div class="img_wr">
+										<img src="img/face.png" alt="">
+									</div>
+									<span class="reviews__name">Татьяна Петрова</span>
+								</div>
+							</div>
+		
+							<div class="reviews__item">
+								<p>Хочу выразить огромную благодарность всему коллективу компании "Мастер" за их подход к клиентам, за высокий профессионализм, за многолетний опыт в строительстве. </p>
+								
+								<p>Заказали баню "Сказка-2", на выставочной площадке "Люблино" менеджер Евгений все очень подробно рассказал про наш выбор, объяснил все этапы строительства и дал свои рекомендации по улучшению проекта, которые очень пригодились.</p>
+		
+								<div class="reviews__user">
+									<div class="img_wr">
+										<img src="img/face.png" alt="">
+									</div>
+									<span class="reviews__name">Татьяна Петрова</span>
+								</div>
+							</div>
+		
+							<div class="reviews__item">
+								<p>Хочу выразить огромную благодарность всему коллективу компании "Мастер" за их подход к клиентам, за высокий профессионализм, за многолетний опыт в строительстве. </p>
+								
+								<p>Заказали баню "Сказка-2", на выставочной площадке "Люблино" менеджер Евгений все очень подробно рассказал про наш выбор, объяснил все этапы строительства и дал свои рекомендации по улучшению проекта, которые очень пригодились.</p>
+		
+								<div class="reviews__user">
+									<div class="img_wr">
+										<img src="img/face.png" alt="">
+									</div>
+									<span class="reviews__name">Татьяна Петрова</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="offer offer2">
+			<div class="wr">
+				<div class="offer__content">
+					<span class="offer__title">Любой проект за 45 дней от <span class="line-through">15 890  </span> <span class="big_word"> 10 890</span>грн/м2</span>
+					<span class="offer__subtitle">Мы готовы построить вам любой проект, даже если его нет в нашем каталоге за эту стоимость. <br> Просто отправьте нам его</span>
+					<button class="btn btn--request">Отправить заявку</button>
+				</div>
+			</div>
+		</div>
+		<div class="contacts">
+			<div class="contacts__content">
+				<span class="block_title">Наши контакты</span>
+		
+				<ul class="contacts__list">
+					<li class="contacts__link link_phone"><a href="tel:+38000000000">+3 800 000 00 00</a></li>
+					<li class="contacts__link link_phone"><a href="tel:+38000000000">+3 800 000 00 00</a></li>
+					<li class="contacts__link link_mail"><a href="mailto:email@test.com">email@test.com</a></li>
+					<li class="contacts__link link_mail"><a href="mailto:email@test.com">email@test.com</a></li>
+				</ul>
+				
+			</div>
+		</div>
+		<div class="map oval">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4748.017171875898!2d30.74686297860571!3d46.48392041276021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c631985b45cb0b%3A0x6e315e968e5b2a42!2z0J7QtNC10YHRgdC60LjQuSDQs9C-0YHRg9C00LDRgNGB0YLQstC10L3QvdGL0Lkg0LDQutCw0LTQtdC80LjRh9C10YHQutC40Lkg0YLQtdCw0YLRgCDQvtC_0LXRgNGLINC4INCx0LDQu9C10YLQsA!5e0!3m2!1sru!2sua!4v1541666424669" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+		
+			
+		</div>
+		
+		<div class="popup popup__quiz">
+			<div class="popup__wr">
+				<div class="popup__content">
+					<div class="page page_main">
+						<div class="text_wr">
+							<span class="popup__title">Мы рады приветствовать Вас на нашем сайте!</span>
+							
+							<p class="popup__text">
+								Чтобы мы могли сделать Вам максимально выгодное предложение, ответьте пожалуйста на несколько не сложных вопросов:
+							</p>
+		
+							<button class="btn btn--next">Ответить</button>
+						</div>	
+					</div>
+					
+					<div class="page page_1">
+						<span class="popup__title">1. Когда планируете начать строительство?</span>
+						
+						<div class="form_wr">
+							<form>
+								<label class="input_radio">
+									<input type="radio" name="1" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">уже «горит»</span>
+								</label>
+		
+								<label class="input_radio">
+									<input type="radio" name="1" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">в течении месяца</span>
+								</label>
+		
+								<label class="input_radio">
+									<input type="radio" name="1" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">от 1 месяца до полугода</span>
+								</label>
+		
+								<label class="input_radio">
+									<input type="radio" name="1" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">когда будут деньги</span>
+								</label>
+		
+								<label class="input_radio">
+									<input type="radio" name="1" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">просто пока хочу прикинуть по цене</span>
+								</label>
+		
+							</form>
+							
+							<div class="button_wr">
+								<button class="btn btn--prev">Назад</button>
+								<button class="btn btn--next">Дальше</button>	
+							</div>
+							
+						</div>
+					</div>
+		
+					<div class="page page_2">
+						<span class="popup__title">2. Где бы вы хотели построить Ваш новый дом?</span>
+						
+						<div class="form_wr">
+							<form>
+								<label class="input_radio">
+									<input type="radio" name="2" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">Одесса + пригород</span>
+								</label>
+		
+								<label class="input_radio">
+									<input type="radio" name="2" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">Одесская область</span>
+								</label>
+		
+								<label class="input_radio">
+									<input type="radio" name="2" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">другие города и области Украины (указать)</span>
+								</label>
+		
+							</form>
+							
+							<div class="button_wr">
+								<button class="btn btn--prev">Назад</button>
+								<button class="btn btn--next">Дальше</button>	
+							</div>
+							
+						</div>
+					</div>
+		
+					<div class="page page_3">
+						<span class="popup__title">3. Есть ли у вас участок под застройку?</span>
+						
+						<div class="form_wr">
+							<form>
+								<label class="input_radio">
+									<input type="radio" name="3" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">есть</span>
+								</label>
+		
+								<label class="input_radio">
+									<input type="radio" name="3" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">нет и хотелось чтобы мы помогли</span>
+								</label>
+		
+								<label class="input_radio">
+									<input type="radio" name="3" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">нет но знаю где приобрести самостоятельно</span>
+								</label>
+		
+							</form>
+							
+							<div class="button_wr">
+								<button class="btn btn--prev">Назад</button>
+								<button class="btn btn--next">Дальше</button>	
+							</div>
+							
+						</div>
+					</div>
+		
+					<div class="page page_4">
+						<span class="popup__title">4. Дом какого размера вы планируете построить?</span>
+						
+						<div class="form_wr">
+							<form>
+								<label class="input_radio">
+									<input type="radio" name="4" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">до 50 м/кв</span>
+								</label>
+		
+								<label class="input_radio">
+									<input type="radio" name="4" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">50-100 м/кв</span>
+								</label>
+		
+								<label class="input_radio">
+									<input type="radio" name="4" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">100-200 м/кв</span>
+								</label>
+		
+								<label class="input_radio">
+									<input type="radio" name="4" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">200 и более м/кв</span>
+								</label>
+		
+							</form>
+							
+							<div class="button_wr">
+								<button class="btn btn--prev">Назад</button>
+								<button class="btn btn--next">Дальше</button>	
+							</div>
+							
+						</div>
+					</div>	
+		
+					<div class="page page_5">
+						<span class="popup__title">5. Сколько этажей будет в вашем новом доме?</span>
+						
+						<div class="form_wr">
+							<form>
+								<label class="input_radio">
+									<input type="radio" name="5" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">1 этаж</span>
+								</label>
+		
+								<label class="input_radio">
+									<input type="radio" name="5" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">2 этажа</span>
+								</label>
+		
+								<label class="input_radio">
+									<input type="radio" name="5" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">3 и более этажей</span>
+								</label>
+							</form>
+							
+							<div class="button_wr">
+								<button class="btn btn--prev">Назад</button>
+								<button class="btn btn--next">Дальше</button>	
+							</div>
+							
+						</div>
+					</div>
+		
+					<div class="page page_6">
+						<span class="popup__title">6. У вас есть индивидуальный проект?</span>
+						
+						<div class="form_wr">
+							<form>
+								<label class="input_radio">
+									<input type="radio" name="6" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">Да есть готовый проект</span>
+								</label>
+		
+								<label class="input_radio">
+									<input type="radio" name="6" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">Есть общий замысел</span>
+								</label>
+		
+								<label class="input_radio">
+									<input type="radio" name="6" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">Интересует авторский проект </span>
+								</label>
+							</form>
+							
+							<div class="button_wr">
+								<button class="btn btn--prev">Назад</button>
+								<button class="btn btn--next">Дальше</button>	
+							</div>
+							
+						</div>
+					</div>
+		
+					<div class="page page_7">
+						<span class="popup__title">7. Строите дом для?</span>
+						
+						<div class="form_wr">
+							<form>
+								<label class="input_radio">
+									<input type="radio" name="7" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">Постоянного проживания</span>
+								</label>
+		
+								<label class="input_radio">
+									<input type="radio" name="7" >
+									<div class="round_wr">
+										<div class="round"></div>
+									</div>
+									<span class="input_text">Сезонного проживания</span>
+								</label>
+		
+								
+							</form>
+							
+							<div class="button_wr">
+								<button class="btn btn--prev">Назад</button>
+								<button class="btn btn--next">Дальше</button>	
+							</div>
+							
+						</div>
+					</div>
+		
+					<div class="page page_8">
+						<span class="popup__title">Спасибо! Получите скидку, оставив контакты</span>
+						
+						<div class="form_wr">
+							<form>
+								<div class="input_wr">
+									<input type="tel" class="input input--tel input--contacts" placeholder="Телефон">
+									<input type="text" class="input input--contacts" placeholder="Имя">
+								</div>
+									
+		
+								<div class="button_wr">
+									<button class="btn btn--prev">Назад</button>
+									<input type="submit" value="Отправить" class="btn btn--send">	
+								</div>
+							</form>
+							
+							
+							
+						</div>
+					</div>	
+		
+					<span class="popup__subtext">Пройдите опрос и получите скидку и бесплатный проект</span>		
+				</div>
+			</div>
+		</div>
+	</main>
+	<div class="footer">
+		<div class="wr">
+			<div class="footer__content">
+				<a href="index.html" class="logo">
+						<span class="big_word">DOM</span>
+						<span class="sign">Каркасные дома  в Одессе </span>
+					</a>
+	
+					<nav class="header__nav">
+						<ul class="header__list">
+							<li class="header__link"><a href="#">Главная</a></li>
+							<li class="header__link"><a href="#"> О нас</a></li>
+							<li class="header__link"><a href="#">Как мы работаем</a></li>
+							<li class="header__link"><a href="#">Наши работы</a></li>
+							<li class="header__link"><a href="#">Отзывы</a></li>
+							<li class="header__link"><a href="#">Контакты</a></li>
+						</ul>                          
+					</nav>
+					
+					<ul class="contacts__list">
+						
+						<li class="contacts__link link_phone"><a href="tel:+38000000000">+3 800 000 00 00</a></li>
+						<li class="contacts__link link_mail"><a href="mailto:email@test.com">email@test.com</a></li>
+	
+					</ul>
+			</div>
+		</div>
+	</div>	
+	
+	<div class="copyright">
+		<div class="wr">
+			<div class="copyright__content">
+				<span>Copyright © 2018</span>
+				<a href="https://www.WorldShop-Web.com">WorldShop-Web.com</a>
+			</div>
+		</div>
+	</div>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="libs/slick/slick.min.js"></script>
+		<script src="libs/mask/jquery.mask.min.js"></script>
+		<script src="libs/fancybox/jquery.fancybox.min.js"></script>
+		<script src="js/main.min.js"></script>
+	
+	
+
+
+</body>
+</html>
